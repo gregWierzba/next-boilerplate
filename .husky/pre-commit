@@ -1,2 +1,2 @@
 bun lint
-bun test
+npm test
