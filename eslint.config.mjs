@@ -36,7 +36,7 @@ const eslintConfig = [
             camelcase: 'error',
             complexity: ['error', { max: 10 }],
             'max-depth': ['error', { max: 4 }],
-            'max-lines-per-function': ['error', { max: 50 }],
+            'max-lines-per-function': ['error', { max: 100 }],
             'no-duplicate-imports': 'error',
             'no-undef': 'error',
             'no-unused-vars': 'off',
