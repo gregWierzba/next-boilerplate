@@ -85,6 +85,19 @@ This is a Next.js boilerplate project designed to provide a solid foundation for
     - Utilize Tailwind's responsive design utilities
     - Customize the theme in `tailwind.config.ts`
 
+### Capacitor
+
+- Description: Cross-platform native runtime for building web apps that run natively on iOS, Android, and the Web. Capacitor allows you to convert your Next.js application into a mobile app.
+- Basic commands:
+    - `bun run build`: Build the Next.js application for production (creates the 'out' directory)
+    - `bunx --bun cap add android`: Add Android platform to your project
+    - `bunx --bun cap add ios`: Add iOS platform to your project
+    - `bunx --bun cap sync`: Sync web assets to native projects and update native plugins
+    - `bunx --bun cap open android`: Open Android project in Android Studio
+    - `bunx --bun cap open ios`: Open iOS project in Xcode
+    - `bunx --bun cap run android`: Build and run the app on an Android device or emulator
+    - `bunx --bun cap run ios`: Build and run the app on an iOS device or simulator
+
 ## Project Structure
 
 ```

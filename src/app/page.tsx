@@ -48,7 +48,7 @@ export default function Page(): JSX.Element {
                 </CardFooter>
             </Card>
             <TypographyMuted className="mt-8">
-                Built with Next.js and shadcn/ui
+                Built with Next.js, shadcn/ui and capacitor
             </TypographyMuted>
         </div>
     )
